@@ -281,6 +281,21 @@ header svg {
   filter: blur(10px);
 } */
 
+.bento.bento--4 {
+  position: relative;
+  overflow: hidden;
+  border-bottom-left-radius: 32px;
+}
+
+.bento.bento--4 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .bento.bento--6 {
   border-bottom-right-radius: var(--default-radius);
 }
